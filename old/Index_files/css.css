@@ -1,0 +1,120 @@
+/* devanagari */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Khand Light'), local('Khand-Light'), url(https://fonts.gstatic.com/s/khand/v4/VOeL8dyL69OPtvBE5HeDWBkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Khand Light'), local('Khand-Light'), url(https://fonts.gstatic.com/s/khand/v4/QLvUMTkxn0hhv6Oyrza-SxkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Khand Light'), local('Khand-Light'), url(https://fonts.gstatic.com/s/khand/v4/hAn00zErRHzyfxin8CabhnYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Khand'), local('Khand-Regular'), url(https://fonts.gstatic.com/s/khand/v4/mGsWqVp41XEyoRbo6rZnuYDGDUGfDkXyfkzVDelzfFk.woff2) format('woff2');
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Khand'), local('Khand-Regular'), url(https://fonts.gstatic.com/s/khand/v4/2k3Gypk1ucRNnKW6MaYM5YDGDUGfDkXyfkzVDelzfFk.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Khand'), local('Khand-Regular'), url(https://fonts.gstatic.com/s/khand/v4/B2SY-qgo6PKl6deUhRJBKaCWcynf_cDxXwCLxiixG1c.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Khand Medium'), local('Khand-Medium'), url(https://fonts.gstatic.com/s/khand/v4/f7Wc5ptcyFN25fP-mE4R2xkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Khand Medium'), local('Khand-Medium'), url(https://fonts.gstatic.com/s/khand/v4/DYLmUyzqOzMWIx-2L2yXgBkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Khand Medium'), local('Khand-Medium'), url(https://fonts.gstatic.com/s/khand/v4/-41om1scqz7QbwGBKAfl3nYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Khand Semibold'), local('Khand-Semibold'), url(https://fonts.gstatic.com/s/khand/v4/JHwIFKqWwSIy2HW15J_3WhkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Khand Semibold'), local('Khand-Semibold'), url(https://fonts.gstatic.com/s/khand/v4/amcUkf7WPd6WyX5YSjlF6BkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Khand Semibold'), local('Khand-Semibold'), url(https://fonts.gstatic.com/s/khand/v4/vr6ZNJpXN-WXcTknMA_7THYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Khand Bold'), local('Khand-Bold'), url(https://fonts.gstatic.com/s/khand/v4/HP_na2rJN16ELyCTIPIK8xkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Khand Bold'), local('Khand-Bold'), url(https://fonts.gstatic.com/s/khand/v4/fY00-dbZrTP2vtPliykgVBkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Khand Bold'), local('Khand-Bold'), url(https://fonts.gstatic.com/s/khand/v4/h5_U1wxbH_4TxOn23I6bKnYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}

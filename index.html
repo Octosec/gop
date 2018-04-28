@@ -1,1142 +1,194 @@
 <!DOCTYPE html>
-<html lang="tr"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+
+
+<html lang="tr">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title> Scoreboard - Game Of Pwners </title>
+    <title> Game Of Pwners </title>
 
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Game of Pwners</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="http://gameofpwners.comstatic/images/favicon.png">
-    <meta name="google-site-verification" content="O3ONNtSL2V1VUkKXGICUbH6CWA1XiBnB4tavOrQzkH4">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" href="static/images/favicon.png" />
+    <meta name="google-site-verification" content="O3ONNtSL2V1VUkKXGICUbH6CWA1XiBnB4tavOrQzkH4" />
 
 
-    <link href="Index_files/css.css" rel="stylesheet">
-    <link rel="stylesheet" href="Index_files/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="Index_files/reset.css" type="text/css">
-    <link rel="stylesheet" href="Index_files/style.css" type="text/css">
-    <link rel="stylesheet" href="Index_files/font-awesome.css" type="text/css">
-    <link rel="stylesheet" href="Index_files/aos.css" type="text/css">
-    <link rel="stylesheet" media="screen" href="Index_files/responsive.css">
-    <link rel="stylesheet" media="screen" href="Index_files/custom.css">
-    <link href="Index_files/index.css" rel="stylesheet">
-    <script src="Index_files/jquery-3.js"></script>
-    <script src="Index_files/jquery.js"></script>
-    <!-- Pretty animations -->
-    <link href="Index_files/animate.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-
-    <!-- Google Analytics -->
+    <link href="fonts.googleapis.com/cssed01.css?family=Khand:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/font-awesome.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/aos.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="static/css/responsive.css" />
+    <link rel="stylesheet" media="screen" href="static/css/custom.css" />
+    <link href="static/css/index.css" rel="stylesheet">
+    <script src="static/js/lib/jquery-3.1.0.min.js"></script>
+    <script src="ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link href="static/css/animate.min.css" rel="stylesheet">
 
 </head>
-<style type="text/css">
-	img.center {
-	    display: block;
-	    margin: 0 auto;
-	}
-</style>
 
-<body data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
-<header id="header" class="fixed">
-    <div class="container">
-        <nav class="navbar navbar-fixed-top">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+<body>
+    <header id="header" class="fixed">
+        <div class="container">
+            <nav class="navbar navbar-fixed-top">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                        aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="static/images/logo.png" style="max-width: 150px;">
+                </a>
+
+            </nav>
+        </div>
+    </header>
+    <div class="main-div">
+        <header class="page-title">
+
+            <div class="container">
+                <h2 class="title-dec"> Hakkında </h2>
             </div>
-            <a href="http://gameofpwners.com"target="_blank" class="logo"><img class="center" src="Index_files/logo.png" style="max-width: 150px;"></a>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-left menu" style="margin-top: 15px">
-                    <li><a href="http://www.octosec.net/">About Us</a></li>
-                </ul>
-                <ul id="score" class="nav navbar-nav navbar-right menu" style="margin-top: 15px">
+        </header>
 
-                </ul>
+
+        <div class="container theme-showcase block push" role="main" id="main-container">
+
+            <section style="margin-top: 1px">
+                <div class="container">
+                    <div class="row margin-bottom-25">
+
+                    </div>
+                </div>
+            </section>
+            <div class="container" style="text-align: center;">
+
+                <p>
+                    Game of Pwners projesi siber güvenlik farkındalığını artırmak, bu alanda çalışmak isteyen kişileri eğlenceli bir ortamda
+                    yarıştırarak siber güvenlik alanına yönelik duyduğu ilgiyi yukarı çekmek ve siber güvenlik uzmanı eksikliğinin
+                    giderilmesine katkı sağlamak amacıyla, Octosec ve Canyoupwnme ekipleri öncülüğünde düzenlenen bir Capture
+                    the Flag (Bayrağı Yakala) yarışmasıdır. Geçen yıl ilki gerçekleştirilen yarışmada dereceye giren ilk
+                    10 ekipten 6’sı farklı ülkelerden katılmıştır, Türkiye'de ve Dünyada yoğun ilgi gören ve takdir edilen
+                    Game of Pwners’ın ikincisi Hacktrick’18 içerisinde gerçekleştirilecektir.
+                </p>
+                <p>
+                    Yarışma 5 Mayıs 2018 tarihinde gerçekleşecektir.
+                </p>
+
+
+
+
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 margin-vertical-20">
+
+                    </div>
+                </div>
             </div>
-        </nav>
+            <section id="portfolio" data-aos="fade-up">
+                <div class="container-fluid">
+                    <h2 class="title-dec">Sponsorlar</h2>
+                    <div class="row" id="grid">
+
+                        <p>
+                            Ödül sponsorluğunda verdikleri destekten dolayı PRISMA CSI` a teşekkür ederiz. </p>
+                        <p>
+
+                            <img src="static/images/prisma.png" style="max-width: 350px;">
+                            <br></br>
+                            <p>
+
+                                Soruların hazırlanmasında verdikleri destekten dolayı Picus Security` e teşekkür ederiz. </p>
+                            <p>
+
+                                <img src="static/images/picus.png" style="max-width: 350px;">
+
+                                <br></br>
+
+
+                    </div>
+
+                </div>
+            </section>
+            <section id="portfolio" data-aos="fade-up">
+                <div class="container-fluid">
+                    <h2 class="title-dec">Ödüller</h2>
+                    <div class="row" id="grid">
+                        <p>
+                            Birinci olan takım üyelerinin her birine Macbook Pro Touch Bar </p>
+                        <p>
+                            İkinci olan takım üyelerinin her birine Ipad Mini
+                        </p>
+                        <p>
+                            Üçüncü olan takım üyelerinin her birine Amazon Kindle
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="say">
+                <div class="container-fluid">
+                    <h2 class="title-dec">İletişim</h2>
+                    <p>
+                        Tüm sorularınız ve sponsorluk için '
+                        <a href="mailto:ninja@gameofpwners.com">ninja@gameofpwners.com</a>' adresini kullanabilirsiniz.
+                    </p>
+                    <p>
+                        Yarışma ile ilgili tüm güncellemeler Game Of Pwners twitter adresinden duyurulacaktır. Gelişmeler için lütfen twitter hesabımızı
+                        takip ediniz.
+                    </p>
+                    <p>
+                        <a class="btn twitter-follow-button" href="https://twitter.com/gameofpwners" data-size="large">
+                            Takip Edin @gameofpwners</a>
+                    </p>
+
+                </div>
+            </section>
+
+        </div>
     </div>
-</header>
-<div class="main-div">
-	<div class="container">
-		<header class="page-title">
-			<h1 class="text-center">Sponsors</h1>
-		</header>
-		<div class="row">
-			<div class="col-md-offset-3 col-md-2">
-	            <a href="http://www.havelsan.com.tr/" target="_blank" class="logo"><img class="center" src="Index_files/hv.png" style="max-width: 150px;"></a>
-			</div>
-			<div class="col-md-2">
-	            <a href="http://www.innoverabt.com/" target="_blank" class="logo"><img class="center" src="Index_files/14.png" style="max-width: 150px;"></a>
-			</div>
-			<div class="col-md-2">
-	            <a href="http://www.lostar.com/" target="_blank" class="logo"><img class="center" src="Index_files/12.png" style="max-width: 150px;"></a>
-			</div>
-		</div>
-		<div class="row" style="margin-top: 30px;">
-			<div class="col-md-offset-2 col-md-2">
-	            <a href="http://www.barikat.com.tr" target="_blank" class="logo"><img class="center" src="Index_files/13.png" style="max-width: 150px;"></a>
-			</div>
-			<div class="col-md-2">
-	            <a href="http://www.secrove.com/" target="_blank" class="logo"><img class="center" src="Index_files/15.png" style="max-width: 150px;"></a>
-			</div>
-			<div class="col-md-2">
-	            <a href="http://trapmine.com/" target="_blank" class="logo"><img class="center" src="Index_files/16.png" style="max-width: 150px;"></a>
-			</div>
-			<div class="col-md-2">
-	            <a href="https://plusclouds.com/" target="_blank" class="logo"><img class="center" src="Index_files/17.png" style="max-width: 150px;"></a>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="main-div">
-
-
-<header class="page-title">
-	<div class="container">
-		<h1>Scoreboard</h1>
-	</div>
-</header>
-
-
-    <div class="container theme-showcase block push" role="main" id="main-container">
-
-
-<table class="table table-hover">
-	<thead>
-		<tr>
-			<th>#</th>
-			<th>Team Name</th>
-
-			<th>Score</th>
-
-		</tr>
-	</thead>
-
-
-
-            <tbody><tr>
-                <td>1</td>
-                <td>dcua</td>
-                <td>4745</td>
-            </tr>
-
-            <tr>
-                <td>2</td>
-                <td>MrMugiwara</td>
-                <td>4285</td>
-            </tr>
-
-            <tr>
-                <td>3</td>
-                <td>HashC4t</td>
-                <td>3885</td>
-            </tr>
-
-            <tr>
-                <td>4</td>
-                <td>The Gang</td>
-                <td>3815</td>
-            </tr>
-
-            <tr>
-                <td>5</td>
-                <td>dut0ser3brum</td>
-                <td>3785</td>
-            </tr>
-
-            <tr>
-                <td>6</td>
-                <td>pwn4food</td>
-                <td>3535</td>
-            </tr>
-
-            <tr>
-                <td>7</td>
-                <td>Torbacilar</td>
-                <td>3217</td>
-            </tr>
-
-            <tr>
-                <td>8</td>
-                <td>FAKO BERI BAK BERI</td>
-                <td>3085</td>
-            </tr>
-
-            <tr>
-                <td>9</td>
-                <td>DFM</td>
-                <td>3030</td>
-            </tr>
-
-            <tr>
-                <td>10</td>
-                <td>AUCC</td>
-                <td>2595</td>
-            </tr>
-
-            <tr>
-                <td>11</td>
-                <td>THE HECKIRS</td>
-                <td>2405</td>
-            </tr>
-
-            <tr>
-                <td>12</td>
-                <td>Zer0</td>
-                <td>2285</td>
-            </tr>
-
-            <tr>
-                <td>13</td>
-                <td>k0nfig</td>
-                <td>2235</td>
-            </tr>
-
-            <tr>
-                <td>14</td>
-                <td>strawberries</td>
-                <td>2165</td>
-            </tr>
-
-            <tr>
-                <td>15</td>
-                <td>Spartans</td>
-                <td>1945</td>
-            </tr>
-
-            <tr>
-                <td>16</td>
-                <td>TSCA</td>
-                <td>1900</td>
-            </tr>
-
-            <tr>
-                <td>17</td>
-                <td>Script Foals</td>
-                <td>1585</td>
-            </tr>
-
-            <tr>
-                <td>18</td>
-                <td>Saphiens</td>
-                <td>1435</td>
-            </tr>
-
-            <tr>
-                <td>19</td>
-                <td>rootX</td>
-                <td>1435</td>
-            </tr>
-
-            <tr>
-                <td>20</td>
-                <td>rek@bet</td>
-                <td>1395</td>
-            </tr>
-
-            <tr>
-                <td>21</td>
-                <td>Azaraks</td>
-                <td>1385</td>
-            </tr>
-
-            <tr>
-                <td>22</td>
-                <td>CyberTeam6</td>
-                <td>1350</td>
-            </tr>
-
-            <tr>
-                <td>23</td>
-                <td>mali</td>
-                <td>1295</td>
-            </tr>
-
-            <tr>
-                <td>24</td>
-                <td>Sherlocked</td>
-                <td>1235</td>
-            </tr>
-
-            <tr>
-                <td>25</td>
-                <td>zer0day</td>
-                <td>1196</td>
-            </tr>
-
-            <tr>
-                <td>26</td>
-                <td>YubitSec</td>
-                <td>1035</td>
-            </tr>
-
-            <tr>
-                <td>27</td>
-                <td>L+F</td>
-                <td>885</td>
-            </tr>
-
-            <tr>
-                <td>28</td>
-                <td>ShadowBroker</td>
-                <td>860</td>
-            </tr>
-
-            <tr>
-                <td>29</td>
-                <td>HackSu</td>
-                <td>705</td>
-            </tr>
-
-            <tr>
-                <td>30</td>
-                <td>BreakPoint</td>
-                <td>685</td>
-            </tr>
-
-            <tr>
-                <td>31</td>
-                <td>Mr_Smerk</td>
-                <td>685</td>
-            </tr>
-
-            <tr>
-                <td>32</td>
-                <td>TAKIMADI</td>
-                <td>610</td>
-            </tr>
-
-            <tr>
-                <td>33</td>
-                <td>W1ldC4tz</td>
-                <td>585</td>
-            </tr>
-
-            <tr>
-                <td>34</td>
-                <td>oldLamers</td>
-                <td>570</td>
-            </tr>
-
-            <tr>
-                <td>35</td>
-                <td>Panda</td>
-                <td>535</td>
-            </tr>
-
-            <tr>
-                <td>36</td>
-                <td>1nfected</td>
-                <td>485</td>
-            </tr>
-
-            <tr>
-                <td>37</td>
-                <td>intacto</td>
-                <td>485</td>
-            </tr>
-
-            <tr>
-                <td>38</td>
-                <td>213</td>
-                <td>440</td>
-            </tr>
-
-            <tr>
-                <td>39</td>
-                <td>PaşarKeyniri</td>
-                <td>415</td>
-            </tr>
-
-            <tr>
-                <td>40</td>
-                <td>sudo rm-rf/</td>
-                <td>405</td>
-            </tr>
-
-            <tr>
-                <td>41</td>
-                <td>KIZILELMA</td>
-                <td>385</td>
-            </tr>
-
-            <tr>
-                <td>42</td>
-                <td>muhendisler</td>
-                <td>385</td>
-            </tr>
-
-            <tr>
-                <td>43</td>
-                <td>cryptti</td>
-                <td>385</td>
-            </tr>
-
-            <tr>
-                <td>44</td>
-                <td>XianThi</td>
-                <td>345</td>
-            </tr>
-
-            <tr>
-                <td>45</td>
-                <td>OnTh3Root</td>
-                <td>335</td>
-            </tr>
-
-            <tr>
-                <td>46</td>
-                <td>SaybirSekTim</td>
-                <td>260</td>
-            </tr>
-
-            <tr>
-                <td>47</td>
-                <td>CraftyFox</td>
-                <td>235</td>
-            </tr>
-
-            <tr>
-                <td>48</td>
-                <td>return 0;</td>
-                <td>235</td>
-            </tr>
-
-            <tr>
-                <td>49</td>
-                <td>hackerhacer</td>
-                <td>185</td>
-            </tr>
-
-            <tr>
-                <td>50</td>
-                <td>null</td>
-                <td>185</td>
-            </tr>
-
-            <tr>
-                <td>51</td>
-                <td>Magma</td>
-                <td>160</td>
-            </tr>
-
-            <tr>
-                <td>52</td>
-                <td>storm</td>
-                <td>160</td>
-            </tr>
-
-            <tr>
-                <td>53</td>
-                <td>hub</td>
-                <td>110</td>
-            </tr>
-
-            <tr>
-                <td>54</td>
-                <td>asdf</td>
-                <td>110</td>
-            </tr>
-
-            <tr>
-                <td>55</td>
-                <td>Inn0vHackti0n</td>
-                <td>110</td>
-            </tr>
-
-            <tr>
-                <td>56</td>
-                <td>0xdeffbeef</td>
-                <td>110</td>
-            </tr>
-
-            <tr>
-                <td>57</td>
-                <td>kkokdae</td>
-                <td>110</td>
-            </tr>
-
-            <tr>
-                <td>58</td>
-                <td>artikyeter</td>
-                <td>100</td>
-            </tr>
-
-            <tr>
-                <td>59</td>
-                <td>ORHANCILAR</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>60</td>
-                <td>revolut10n</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>61</td>
-                <td>DevilHackCry</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>62</td>
-                <td>Takımın Adı*</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>63</td>
-                <td>No3</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>64</td>
-                <td>LoopOfTİme</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>65</td>
-                <td>MALware</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>66</td>
-                <td>Nemessies</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>67</td>
-                <td>Whoami</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>68</td>
-                <td>hrn</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>69</td>
-                <td>Sumrom</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>70</td>
-                <td>Lodos</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>71</td>
-                <td>Çelik Beyin</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>72</td>
-                <td>terminal</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>73</td>
-                <td>Tulpar</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>74</td>
-                <td>CEC_KTU</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>75</td>
-                <td>E.S.K.İ</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>76</td>
-                <td>BurnedHats</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>77</td>
-                <td>@ismnTR</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>78</td>
-                <td>bearbeer</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>79</td>
-                <td>Cyb3rPunch</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>80</td>
-                <td>Sui Generis</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>81</td>
-                <td>arazi</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>82</td>
-                <td>CWK</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>83</td>
-                <td>FlagFactory</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>84</td>
-                <td>SparSec</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>85</td>
-                <td>raskolnikov</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>86</td>
-                <td>FailFish</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>87</td>
-                <td>DT</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>88</td>
-                <td>armut</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>89</td>
-                <td>AccioProtegus</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>90</td>
-                <td>CyberCats</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>91</td>
-                <td>KoDDer</td>
-                <td>85</td>
-            </tr>
-
-            <tr>
-                <td>92</td>
-                <td>MaTTQrx</td>
-                <td>75</td>
-            </tr>
-
-            <tr>
-                <td>93</td>
-                <td>RevAy</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>94</td>
-                <td>Nohco B0rz</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>95</td>
-                <td>Thanatoz</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>96</td>
-                <td>BigB</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>97</td>
-                <td>Valhalla</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>98</td>
-                <td>0x6CAC60</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>99</td>
-                <td>SFEH</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>100</td>
-                <td>CA</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>101</td>
-                <td>Birlik</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>102</td>
-                <td>DeepHACK</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>103</td>
-                <td>Einherjar</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>104</td>
-                <td>ANASON</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>105</td>
-                <td>0day</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>106</td>
-                <td>ITT</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>107</td>
-                <td>4s3r4</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>108</td>
-                <td>LoL</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>109</td>
-                <td>BUG42</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>110</td>
-                <td>Furkan</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>111</td>
-                <td>pineapple</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>112</td>
-                <td>SYMBIOSIS</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>113</td>
-                <td>IMC</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>114</td>
-                <td>Gomi</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>115</td>
-                <td>GoP-Staff</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>116</td>
-                <td>cyberowls</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>117</td>
-                <td>Custodes</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>118</td>
-                <td>Samurai Jack</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>119</td>
-                <td>NavSec</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>120</td>
-                <td>Göktürk</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>121</td>
-                <td>Paradisee</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>122</td>
-                <td>Root</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>123</td>
-                <td>crYpt</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>124</td>
-                <td>QWERTY</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>125</td>
-                <td>Charizard</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>126</td>
-                <td>TurkishWarriors</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>127</td>
-                <td>anfba</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>128</td>
-                <td>BY-Doz</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>129</td>
-                <td>grupşurup</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>130</td>
-                <td>G-Force</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>131</td>
-                <td>casper</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>132</td>
-                <td>C4F</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>133</td>
-                <td>0xFirat</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>134</td>
-                <td>core</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>135</td>
-                <td>Vud0</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>136</td>
-                <td>try_catch</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>137</td>
-                <td>Uvuvwevwevwe Onyetenyevwe Ugwemuhwem Osas</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>138</td>
-                <td>McL</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>139</td>
-                <td>_Nyx</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>140</td>
-                <td>ismkdc</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>141</td>
-                <td>0wl07</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>142</td>
-                <td>\x62\x75\x67\x20\x72\x65\</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>143</td>
-                <td>Önden Giden Laglılar</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>144</td>
-                <td>Mr_X</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>145</td>
-                <td>acemi</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>146</td>
-                <td>Mistral</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>147</td>
-                <td>SRCN</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>148</td>
-                <td>MoneDent</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>149</td>
-                <td>HackerHacer</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>150</td>
-                <td>Queue</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>151</td>
-                <td>b4ckDo0r3d</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>152</td>
-                <td>NeoOttomans</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>153</td>
-                <td>totem</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>154</td>
-                <td>59Boys</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>155</td>
-                <td>Lamerler</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>156</td>
-                <td>Rost</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>157</td>
-                <td>j4guar</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>158</td>
-                <td>SiberBiber</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>159</td>
-                <td>raVen</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>160</td>
-                <td>BKM</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>161</td>
-                <td>TOCA</td>
-                <td>10</td>
-            </tr>
-
-
-</tbody></table>
-
-
-<script type="text/javascript" src="Index_files/Chart.js"></script>
-<script type="text/javascript" src="Index_files/progression.js"></script>
-<script type="text/javascript">
-var data = [{"data": [{"y": 0, "x": 0}, {"y": 10, "x": 68340}, {"y": 110, "x": 68389}, {"y": 310, "x": 68416}, {"y": 810, "x": 68595}, {"y": 935, "x": 69268}, {"y": 1285, "x": 69271}, {"y": 1585, "x": 69285}, {"y": 1885, "x": 69285}, {"y": 1960, "x": 69292}, {"y": 2210, "x": 69304}, {"y": 2410, "x": 69581}, {"y": 2610, "x": 69644}, {"y": 2705, "x": 69792}, {"y": 2905, "x": 69932}, {"y": 3325, "x": 69989}, {"y": 3665, "x": 70005}, {"y": 3795, "x": 70599}, {"y": 3895, "x": 70778}, {"y": 3995, "x": 70799}, {"y": 4445, "x": 70953}, {"y": 4745, "x": 71022}, {"y": 4745, "x": 28800}], "label": "dcua"}, {"data": [{"y": 0, "x": 0}, {"y": 10, "x": 68947}, {"y": 110, "x": 69027}, {"y": 310, "x": 69041}, {"y": 510, "x": 69637}, {"y": 710, "x": 69960}, {"y": 960, "x": 69978}, {"y": 1260, "x": 69981}, {"y": 1335, "x": 70011}, {"y": 1685, "x": 70023}, {"y": 1985, "x": 70336}, {"y": 2060, "x": 70341}, {"y": 2135, "x": 70362}, {"y": 2535, "x": 70685}, {"y": 2635, "x": 70725}, {"y": 2735, "x": 70836}, {"y": 3035, "x": 70873}, {"y": 3135, "x": 70896}, {"y": 3335, "x": 70966}, {"y": 3785, "x": 71036}, {"y": 4285, "x": 71087}, {"y": 4285, "x": 28800}], "label": "MrMugiwara"}, {"data": [{"y": 0, "x": 0}, {"y": 10, "x": 69597}, {"y": 110, "x": 69598}, {"y": 310, "x": 70254}, {"y": 385, "x": 70712}, {"y": 460, "x": 70718}, {"y": 760, "x": 70738}, {"y": 1060, "x": 70784}, {"y": 1135, "x": 70820}, {"y": 1235, "x": 70825}, {"y": 1585, "x": 70880}, {"y": 1685, "x": 70883}, {"y": 1785, "x": 70891}, {"y": 1985, "x": 70937}, {"y": 2185, "x": 70945}, {"y": 2585, "x": 70952}, {"y": 2885, "x": 70979}, {"y": 3085, "x": 70988}, {"y": 3585, "x": 70995}, {"y": 3885, "x": 71077}, {"y": 3885, "x": 28800}], "label": "HashC4t"}, {"data": [{"y": 0, "x": 0}, {"y": 10, "x": 68320}, {"y": 210, "x": 68397}, {"y": 510, "x": 68517}, {"y": 610, "x": 68539}, {"y": 720, "x": 68623}, {"y": 795, "x": 69500}, {"y": 870, "x": 69510}, {"y": 1170, "x": 69631}, {"y": 1245, "x": 69792}, {"y": 1545, "x": 69886}, {"y": 1845, "x": 69968}, {"y": 2045, "x": 70000}, {"y": 2265, "x": 70078}, {"y": 2615, "x": 70264}, {"y": 2815, "x": 70681}, {"y": 2915, "x": 70931}, {"y": 3315, "x": 70958}, {"y": 3515, "x": 71019}, {"y": 3815, "x": 71086}, {"y": 3815, "x": 28800}], "label": "The Gang"}, {"data": [{"y": 0, "x": 0}, {"y": 10, "x": 68332}, {"y": 210, "x": 68367}, {"y": 310, "x": 68399}, {"y": 610, "x": 68576}, {"y": 710, "x": 68702}, {"y": 785, "x": 69533}, {"y": 885, "x": 70809}, {"y": 1235, "x": 70813}, {"y": 1535, "x": 70848}, {"y": 1610, "x": 70851}, {"y": 1810, "x": 70874}, {"y": 1885, "x": 70877}, {"y": 2085, "x": 70888}, {"y": 2385, "x": 70915}, {"y": 2685, "x": 70930}, {"y": 2885, "x": 70976}, {"y": 3085, "x": 71005}, {"y": 3485, "x": 71012}, {"y": 3785, "x": 71093}, {"y": 3785, "x": 28800}], "label": "dut0ser3brum"}, {"data": [{"y": 0, "x": 0}, {"y": 10, "x": 68353}, {"y": 110, "x": 69778}, {"y": 310, "x": 70842}, {"y": 660, "x": 70845}, {"y": 910, "x": 70853}, {"y": 1110, "x": 70863}, {"y": 1210, "x": 70879}, {"y": 1285, "x": 70881}, {"y": 1360, "x": 70883}, {"y": 1460, "x": 70886}, {"y": 1535, "x": 70893}, {"y": 1835, "x": 70902}, {"y": 2035, "x": 70914}, {"y": 2135, "x": 70968}, {"y": 2435, "x": 71028}, {"y": 2935, "x": 71051}, {"y": 3135, "x": 71064}, {"y": 3535, "x": 71081}, {"y": 3535, "x": 28800}], "label": "pwn4food"}, {"data": [{"y": 0, "x": 0}, {"y": 10, "x": 68322}, {"y": 85, "x": 69062}, {"y": 442, "x": 69221}, {"y": 742, "x": 69227}, {"y": 992, "x": 69249}, {"y": 1292, "x": 69257}, {"y": 1392, "x": 69397}, {"y": 1592, "x": 69707}, {"y": 1667, "x": 69821}, {"y": 1967, "x": 69835}, {"y": 2042, "x": 69838}, {"y": 2242, "x": 69941}, {"y": 2312, "x": 69984}, {"y": 2322, "x": 69988}, {"y": 2522, "x": 70608}, {"y": 2622, "x": 70634}, {"y": 2722, "x": 70806}, {"y": 3172, "x": 70887}, {"y": 3217, "x": 28800}], "label": "Torbacilar"}, {"data": [{"y": 0, "x": 0}, {"y": 10, "x": 68319}, {"y": 110, "x": 68376}, {"y": 310, "x": 68385}, {"y": 610, "x": 68556}, {"y": 710, "x": 69327}, {"y": 785, "x": 69521}, {"y": 860, "x": 69659}, {"y": 1160, "x": 69690}, {"y": 1235, "x": 69862}, {"y": 1535, "x": 69953}, {"y": 1835, "x": 70449}, {"y": 2185, "x": 70458}, {"y": 2385, "x": 70614}, {"y": 2585, "x": 70756}, {"y": 2785, "x": 70804}, {"y": 2885, "x": 70933}, {"y": 3085, "x": 71093}, {"y": 3085, "x": 28800}], "label": "FAKO BERI BAK BERI"}];
-var ctx = $('#chart')[0];
-draw_progression(ctx, true);
-</script>
-
-
-    </div>
-</div>
-<footer class="sticky-footer">
-    <div class="container">
-        <div class="row">
-          <!--  <div class="col-md-2">
+    <footer class="sticky-footer">
+        <div class="container">
+            <div class="row">
+                <!--  <div class="col-md-2">
                 <ul class="social">
                     <li><a href="https://twitter.com/gameofpwners" class="tw"></a></li>
                 </ul>
             </div>-->
-            <div class="col-md-12 text-center">
-                <!--<img src="/static/images/logo_black.png" style="max-width: 150px;">-->
-                <div class="copy">2017 - Game of Pwners | <a href="https://octosec.net/" target="_blank">octosec</a> &amp; <a href="https://canyoupwn.me/" target="_blank">canyoupwnme</a></div>
-            </div>
-          <!--  <div class="col-md-2">
+                <div class="col-md-12 text-center">
+                    <!--<img src="/static/images/logo_black.png" style="max-width: 150px;">-->
+                    <div class="copy">2018 - Game of Pwners |
+                        <a target="_blank" href="https://octosec.net/" target="_blank">octosec</a> &
+                        <a target="_blank" href="https://canyoupwn.me/" target="_blank">canyoupwnme</a>
+                    </div>
+                </div>
+                <!--  <div class="col-md-2">
             </div>-->
+            </div>
         </div>
-    </div>
-</footer>
-<!--<a href="#" class="up"></a>-->
-<script src="Index_files/bootstrap.js"></script>
-<script src="Index_files/bootstrap-notify.js"></script>
-<script src="Index_files/swiper.js"></script>
-<script src="Index_files/aos.js"></script>
-<script src="Index_files/script.js"></script>
-<script src="Index_files/custom.js"></script>
+    </footer>
+    <!--<a href="#" class="up"></a>-->
+    <script src="static/js/lib/bootstrap.min.js"></script>
+    <script src="static/js/bootstrap-notify.min.js"></script>
+    <script src="static/js/lib/swiper.min.js"></script>
+    <script src="static/js/lib/aos.js"></script>
+    <script src="static/js/script.js"></script>
+    <script src="static/js/custom.js"></script>
 
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="Index_files/ie10-viewport-bug-workaround.js"></script>
+    <script src="static/js/ie10-viewport-bug-workaround.js"></script>
+</body>
 
-
-</body></html>
+</html>

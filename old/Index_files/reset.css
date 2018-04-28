@@ -1,0 +1,367 @@
+/* Reset
+-----------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+/*table,*/ caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	outline:0px solid red;
+}
+ol, ul, li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote{
+	font-size:15px;
+	color:#222;
+	line-height:17px;
+	font-weight:400;
+	margin:0 0 20px;
+	padding:10px 0 10px 20px;
+	border-left:3px solid #f5f5f5;
+	font-style:italic;
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/*
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width:100%;
+}
+td{
+	border:1px solid #222;
+	font-size:16px;
+	color:#888686;
+	line-height:20px;
+	font-weight:300;
+	padding:15px;
+}
+thead td{
+	background:#222;
+	color:#fff;
+}*/
+html {
+	height: 100%;
+}
+header, nav, section, article, aside, footer {
+	display: block;
+}
+body {
+	font: 16px 'Khand', Arial, Verdana, sans-serif;
+	width: 100%;
+	height: 100%;
+	background:#fff;
+	color:#222;
+}
+a {
+	outline: none;
+	text-decoration: underline;
+	font-size: 16px;
+    color: #272529;
+}
+a:hover {
+	text-decoration: none;
+	color: #272529;
+}
+p {
+	font-size:16px;
+	color:#595959;
+	line-height:20px;
+	margin:0 0 20px;
+}
+img {
+	border: none;
+	max-width:100%;
+}
+input {
+	vertical-align: middle;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="phone"]{
+	border:0;
+	background:#fff;
+	border-bottom:2px solid #222;
+	padding:8px 0;
+	display:block;
+	color:#222;
+	font-size:17px;
+	font-weight:600;
+}
+textarea{
+	border:0;
+	height:126px;
+	background:#fff;
+	border-bottom:2px solid #222;
+	padding:8px 0;
+	display:block;
+	color:#222;
+	font-size:17px;
+	font-weight:600;
+	text-transform:uppercase;
+	resize:none;
+	overflow:hidden;
+}
+.clear:before, .clear:after {
+   content: "";
+   display: table;
+}
+
+.clear:after {
+   clear: both;
+}
+.clear {
+   zoom: 1;
+}
+::selection{
+	background:#222;
+	color:#fff;
+}
+h1, h2, h3, h4, h5, h6{
+}
+.index-page h1{
+	font-size:100px;
+	line-height:100px;
+	margin: 0;
+}
+h2.title-dec{
+    font-size: 28px;
+    color: #222;
+    margin: 0 0 32px;
+    text-transform: uppercase;
+    padding: 0 0 28px;
+	font-weight: 400;
+	position:relative;
+}
+h2.title-dec:before{
+	position:absolute;
+	bottom:0;
+	left:50%;
+	width:13px;
+	height:13px;
+	margin:0 0 0 -6px;
+	background:url(../images/sprite.png) no-repeat -202px 0;
+	content:'';
+}
+h1{
+	font-weight:400;
+	font-size:35px;
+	color:#222;
+	line-height:35px;
+	margin:0 0 32px;
+}
+h2{
+	font-weight:400;
+	font-size:28px;
+	color:#222;
+	line-height:28px;
+	margin:0 0 32px;
+}
+h3{
+	font-weight:600;
+	font-size:22px;
+	color:#222;
+	line-height:22px;
+	margin:0 0 24px;
+}
+h4{
+	font-weight:600;
+	font-size:20px;
+	color:#222;
+	line-height:20px;
+	margin:0 0 24px;
+}
+h5{
+	font-weight:600;
+	font-size:18px;
+	color:#222;
+	line-height:18px;
+	margin:0 0 24px;
+}
+h6{
+	font-weight:600;
+	font-size:16px;
+	color:#222;
+	line-height:16px;
+	margin:0 0 24px;
+}
+.main{
+	overflow:hidden;
+	width:100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	position:relative;
+	min-width:940px;
+}
+.wrapper{
+	margin: 0 auto;
+    position: relative;
+    width: 940px;
+}
+.btn{
+	font-size:17px;
+	line-height:17px;
+	color:#fff;
+	text-transform:uppercase;
+	padding:15px 40px;
+	background:#222;
+	text-decoration:none;
+	border-radius:0;
+	border:1px solid #222;
+}
+.btn:hover, .btn:active, .btn:focus{
+	background:#fff;
+	color:#000;
+	border:1px solid #222;
+	box-shadow:none;
+}
+.btn-default{
+	font-size:17px;
+	line-height:17px;
+	color:#000;
+	text-transform:uppercase;
+	padding:15px 40px;
+	background:#fff;
+	text-decoration:none;
+	border-radius:0;
+	border:1px solid #222;
+}
+.btn-default:hover, .btn-default:active, .btn-default:focus{
+	background:#222;
+	color:#fff;
+	border:1px solid #222;
+	box-shadow:none;
+}
+::-webkit-input-placeholder {color: #222;opacity: 1;}
+:-moz-placeholder {color: #222;opacity: 1;}
+::-moz-placeholder {color: #222;opacity: 1;}
+:-ms-input-placeholder {color: #222;opacity: 1;}
+:focus::-moz-placeholder{ color: #222; opacity: 0;}
+*::-moz-placeholder{ opacity: 1;}
+:focus::-webkit-input-placeholder {color: #fff;opacity: 0;}
+:focus:-moz-placeholder {color: #fff;opacity: 0;}
+:focus::-moz-placeholder {color: #fff;opacity: 0;}
+
+.margin-vertical-20 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.margin-bottom-25{
+	margin-bottom: 25px;
+}
+.sticky-footer{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+	background-color: #E2E3E8;
+	padding: 5px 0;
+}
+
+.copy{
+	margin: 10px 0 10px !important;
+	padding: 2px !important;
+}
+
+.main-div{
+	margin-top: 120px;
+	margin-bottom: 56px;
+}
+
+.up{
+	margin-bottom: 60px;
+	margin-right: 20px;
+}
+
+/*
+Generic Styling, for Desktops/Laptops
+*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+th {
+  background: #333;
+  color: white;
+  font-weight: bold;
+}
+td, th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+/*
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media
+only screen and (max-width: 460px),
+(min-device-width: 460px) and (max-device-width: 461px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	tr { border: 1px solid #ccc; }
+
+	td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+	}
+
+	td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+}
+
+.panel-heading {
+	cursor: pointer;
+}
+
+.problembody.collapse.in{
+	display: inline !important;
+}
